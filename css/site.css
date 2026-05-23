@@ -1,0 +1,79 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+.navbar-brand {
+   white-space: normal;
+   text-align: center;
+   word-break: break-all;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+   font-size: 14px;
+   position: relative;
+   min-height: 100%;
+}
+
+body {
+   font-family: sans-serif;
+   /* Margin bottom by footer height */
+   margin-bottom: 60px;
+   background-color: #eeeeee;
+   /*background-color: white;*/
+}
+/* customize menu items using list-group-item */
+.list-group-menu .list-group-item {
+   background-color: #eeeeee;
+   border-radius: 10px;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   border-width: 2px;
+}
+
+   .list-group-menu .list-group-item:hover {
+      background-color: rgb(175,186,244);
+      font-weight: bold;
+      border-color: white;
+   }
+
+.bg-theme {
+   background-color: rgb(175,186,244);
+}
+
+.border-top {
+   border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+   border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+   box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+.accept-policy {
+   font-size: 1rem;
+   line-height: inherit;
+}
+
+.footer {
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+   white-space: nowrap;
+   /* Set the fixed height of the footer here */
+   height: 60px;
+   /*line-height: 24px;*/
+}
+
+@media (min-width: 768px) {
+   /*html {
+      font-size: 16px;
+   }*/
+   .nav-button {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+   }
+}
